@@ -1,0 +1,42 @@
+.navbar{
+    height: 50px;
+    background-color: #7368eb;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    z-index: 999;
+    top: 0px;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.listItem{
+    margin-right: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.avatar{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
